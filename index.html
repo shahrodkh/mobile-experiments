@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="/scripts/brim/dist/brim.js"></script>
+  <script src="/scripts/scream/src/scream.js"></script>
+      <script>
+    window.addEventListener('DOMContentLoaded', function () {
+        var scream,
+            brim;
+
+        scream = gajus.Scream({
+            width: {
+                portrait: 320,
+                landscape: 640
+            }
+        });
+
+        brim = gajus.Brim({
+            viewport: scream
+        });
+    });
+    </script>
+</head>
+<body>
+    <div id="brim-main">
+      <div id="card">Card here</div>
+      <div id="video">
+        <!-- <iframe src="https://www.w3schools.com"></iframe> -->
+      </div>
+      <div id="content">lots of content :D</div>
+    </div>
+    <div id="brim-mask">
+      I am the mask??
+    </div>
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

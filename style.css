@@ -1,0 +1,16 @@
+#card {
+  background-color: green;
+  height: 100px;
+  width: 100%;
+}
+#video {
+  background-color: yellow;
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+}
+#content {
+  background-color: red;
+  height: 1000px;
+  width: 100%;
+}
